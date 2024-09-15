@@ -1,53 +1,59 @@
-@charset "UTF-8";
-
+/* Define estilos globais */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no tamanho total dos elementos */
 }
 
-    body {
-    background-color: rgb(52, 172, 247);
-    font: normal 1em Arial;
+/* Estilo para o corpo da página */
+body {
+    background-color: rgb(52, 172, 247); /* Define a cor de fundo do corpo da página */
+    font: normal 1em Arial; /* Define a fonte padrão para Arial com tamanho de 1em */
 }
 
+/* Estilo para o cabeçalho da página */
 header {
-    color: white;
-    text-align: center;
-    padding: 15px;
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 15px; /* Adiciona um preenchimento de 15px em torno do conteúdo */
 }
 
+/* Estilo para a seção principal da página */
 section {
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    width: 90%;
-    max-width: 500px;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.302);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: white; /* Define a cor de fundo como branco */
+    border-radius: 10px; /* Arredonda os cantos com um raio de 10px */
+    padding: 15px; /* Adiciona um preenchimento de 15px em torno do conteúdo */
+    width: 90%; /* Define a largura da seção como 90% da largura do contêiner pai */
+    max-width: 500px; /* Define a largura máxima como 500px */
+    margin: auto; /* Centraliza a seção horizontalmente na página */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.302); /* Adiciona uma sombra ao redor da seção */
+    display: flex; /* Define a exibição como flexbox */
+    flex-direction: column; /* Organiza os itens da seção em uma coluna */
+    align-items: center; /* Alinha os itens ao centro */
 }
 
+/* Estilo para todos os elementos <div> */
 div {
-    text-align: justify;
-    padding: 8px;
+    text-align: justify; /* Justifica o texto dentro das divs */
+    padding: 8px; /* Adiciona um preenchimento de 8px em torno do conteúdo */
 }
 
+/* Estilo para todos os parágrafos dentro de uma <div> */
 div > p {
-    padding: 10px;
+    padding: 10px; /* Adiciona um preenchimento de 10px em torno do conteúdo */
 }
 
+/* Estilo para todas as imagens */
 img {
-    border-radius: 50%;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.098);
+    border-radius: 50%; /* Faz com que as imagens tenham formato circular */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.098); /* Adiciona uma sombra ao redor das imagens */
 }
 
+/* Estilo para o rodapé da página */
 footer {
-    color: white;
-    text-align: center;
-    font-style: italic;
-    margin: 10px;
-    padding: 15px;
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Alinha o texto ao centro */
+    font-style: italic; /* Define o estilo da fonte como itálico */
+    margin: 10px; /* Adiciona uma margem de 10px ao redor do rodapé */
+    padding: 15px; /* Adiciona um preenchimento de 15px em torno do conteúdo */
 }
